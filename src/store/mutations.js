@@ -11,7 +11,7 @@ export default {
     },
     [ADD_TO_CART](state,payload){
         payload.checked = true;
-        console.log(payload); 
+        //console.log(payload); 
         state.cartList.push(payload);
         
     },

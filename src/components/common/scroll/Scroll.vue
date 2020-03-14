@@ -54,7 +54,7 @@ import BScroll from 'better-scroll'
                 this.scroll.finishPullUp()
             },
             refresh(){ //调用该方法确定最终可拉框的距离  
-            console.log('--');
+            //console.log('--');
                 this.scroll.refresh()
             },
             getScrollY(){

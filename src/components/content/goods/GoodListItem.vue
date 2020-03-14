@@ -65,7 +65,7 @@ img{
 p{
     overflow:hidden;
     text-overflow:ellipsis;
-     white-space:nowrap;
+    white-space:nowrap;
 }
 .price{
     color: var(--color-high-text);

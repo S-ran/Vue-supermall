@@ -31,7 +31,7 @@ import Scroll from 'components/common/scroll/Scroll'
             Scroll
         },
         mounted(){
-           console.log(this.categories)     
+           //console.log(this.categories)     
         },
         methods:{
            onClick(index){

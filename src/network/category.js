@@ -17,7 +17,7 @@ export function getCategory() {// 1.请求总分类数据
   
   export function getCategoryDetail(miniWallkey, type) {//请求子页面分类详情数据
     return request({
-      url: '/subcategory/detail',
+      url: '/subcategorydetail',
       params: {
         miniWallkey,
         type

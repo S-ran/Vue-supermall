@@ -43,7 +43,7 @@ const routes = [
 
 const router = new VueRouter({
     routes,
-    mode:'history'//'/'连接history
+    mode:'hash'//'/'连接history,hash
 })
 
 export default router

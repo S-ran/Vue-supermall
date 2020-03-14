@@ -122,7 +122,7 @@ import {mapActions} from 'vuex'
                         this.themeTopYs.push(this.$refs.comment.$el.offsetTop);
                         this.themeTopYs.push(this.$refs.recommed.$el.offsetTop);
                         this.themeTopYs.push(Number.MAX_VALUE)
-                        console.log(this.themeTopYs);
+                        //console.log(this.themeTopYs);
             },
             titleClick(index){//点击到达指定锚点
                 this.$refs.scroll.scrollTo(0,-this.themeTopYs[index],100)
@@ -163,7 +163,7 @@ import {mapActions} from 'vuex'
                 //     console.log(res);
                 // })
                 this.addCart(product).then(res =>{
-                    console.log( this.$toast);
+                    //console.log( this.$toast);
                     this.$toast.Get_show(res,2000)  //提示框
                 })
             }     

@@ -39,7 +39,7 @@ import { getCategory,
                 //请求总数据
                 getCategory().then(res => {
                 //标题数据
-                console.log(res)
+                //console.log(res)
                 const categories = res.data.data.category.list
                 //定义变量接收分类数据
                 const categoryDate = {}
